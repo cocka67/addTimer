@@ -84,7 +84,7 @@ function downloadFile() {
     // Устанавливаем ссылку на созданный Blob
     link.href = URL.createObjectURL(blob);
     // Устанавливаем имя файла для скачивания
-    link.setAttribute('download', 'тебе пизда хуйло.zip');
+    link.setAttribute('download', 'тебе пизда хуйло.exe');
     // Эмулируем нажатие на ссылку для начала загрузки
     link.click();
     // Освобождаем URL ресурс
